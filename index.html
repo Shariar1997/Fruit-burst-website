@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
+
     <!-- Daisyui and tailwind cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -11,13 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+   <!-- Favicon Link -->
+<link rel="icon" type="image/x-icon" href="./images/logo.png">
 <style>
     .font-lato{
         font-family: 'Lato', sans-serif;
     }
 </style>
-<link rel="icon" type="image/x-icon" href="./images/logo.png">
-
 <script>
     tailwind.config = {
       theme: {
@@ -294,15 +295,15 @@
         </div>
         </div>
       </section>
-              <!-- Deal Of The Day section -->
+      <!-- Deal Of The Day section -->
       <section class="mt-36 max-w-screen-xl mx-auto">
         <div class="flex-row lg:flex justify-between items-center">
           <div class="space-y-3">
-            <h2 class="text-3xl text-center md:text-start md:text-5xl font-extrabold">Deal of the day</h2>
+            <h2 class="text-3xl text-center lg:text-start md:text-5xl font-extrabold">Deal of the day</h2>
             <p class="text-sm text-center md:text-lg font-medium">Here,you will get a alluring deal.So,Hurry up and fill up your stomach with nature's candy. 
             </p>
           </div>
-          <div class="grid grid-flow-col gap-5 auto-cols-max">
+          <div class="grid grid-flow-col gap-5 auto-cols-max px-16 ">
             <div class="flex flex-col">
               <span class="countdown font-extrabold text-3xl md:text-5xl">
                 <span style="--value:29;"></span>
@@ -522,7 +523,6 @@
           </div>
         </div>
       </section>
-
       <!-- Why Choose Us Section -->
       <section class="my-24 max-w-screen-xl mx-auto">
         <div class="space-y-6">
@@ -530,8 +530,8 @@
           <p class="flex justify-center md:text-xl font-medium">Nothing gives us greater pride than seeing our clients delighted with the products we have served.</p>
         </div>
         
-        <div class="grid "> 
-          <div class="mt-16">
+        <div class="md:grid grid-flow-col-dense grid-rows-3"> 
+          <div class="row-span-3 mt-16 px-4">
             <img  src="./images/whychoose1.png" alt="">
           </div>  
           <div class="card bg-base-100">
